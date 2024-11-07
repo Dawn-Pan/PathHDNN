@@ -10,7 +10,7 @@ The PathHDNN facilitates the construction of a sparse neural network utilizing a
 
 ## 2. Design of PathHDNN
 
-![alt text](image/workflow.tif "Design of PathHDNN")
+![alt text](image/workflow.jpg "Design of PathHDNN")
 
 Figure 1: Overall architecture of PathHDNN
 
