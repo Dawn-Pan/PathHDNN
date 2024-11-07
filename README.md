@@ -111,5 +111,7 @@ query_node="TP53_mut"
 IG.plot_subgraph_sankey(query_node, upstream=False, savename='./TP53_mut.pdf', cmap='Reds')
 IG.plot_subgraph_sankey("JAK2_mut", upstream=False, savename='./JAK2_mut.pdf', cmap='Reds')
 ```
+A complete sankey
 ![alt text](image/test.jpg "test")
+Subgraph
 ![alt text](image/TP53_mut.jpg "TP53_mut")
