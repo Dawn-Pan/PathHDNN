@@ -67,7 +67,8 @@ for epoch in range(num_epochs):
 
     avg_loss = total_loss / len(dataloader)
     avg_accuracy = total_accuracy / len(dataloader)
-    print(f'Epoch {epoch}, Average Accuracy {avg_accuracy}, Average Loss: {avg_loss}')```
+    print(f'Epoch {epoch}, Average Accuracy {avg_accuracy}, Average Loss: {avg_loss}')
+    ```
 
 
 ## 5. Interpretation of the PathHDNN model
@@ -108,6 +109,7 @@ IG = ImportanceNetwork(importance_df,norm_method=False)
 IG.plot_complete_sankey(show_top_n=10,multiclass=False, savename='./test.pdf', node_cmap='Reds', edge_cmap='Reds')
 query_node="TP53_mut"
 IG.plot_subgraph_sankey(query_node, upstream=False, savename='./TP53_mut.pdf', cmap='Reds')
-IG.plot_subgraph_sankey("JAK2_mut", upstream=False, savename='./JAK2_mut.pdf', cmap='Reds')```
-![alt text](data/test.pdf "test")
-![alt text](data/TP53_mut.pdf "TP53_mut")
+IG.plot_subgraph_sankey("JAK2_mut", upstream=False, savename='./JAK2_mut.pdf', cmap='Reds')
+```
+![alt text](image/test.jpg "test")
+![alt text](image/TP53_mut.jpg "TP53_mut")
