@@ -68,7 +68,7 @@ for epoch in range(num_epochs):
     avg_loss = total_loss / len(dataloader)
     avg_accuracy = total_accuracy / len(dataloader)
     print(f'Epoch {epoch}, Average Accuracy {avg_accuracy}, Average Loss: {avg_loss}')
-    ```
+```
 
 
 ## 5. Interpretation of the PathHDNN model
