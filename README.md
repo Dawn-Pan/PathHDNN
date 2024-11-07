@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# PathHDNN
-=======
-<<<<<<< HEAD
-# PathHDNN
-=======
 # PathHDNN - A pathway hierarchical-informed deep neural network framework for predicting immunotherapy response and mechanism interpretation
 -----------------------------------------------------------------
 Code by **Xiangmei Li** and **Bingyue Pan** at Harbin Medical University.
